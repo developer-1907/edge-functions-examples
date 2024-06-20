@@ -1,0 +1,8 @@
+# Redirect users from the US to /us-page.html
+/us-page.html 200! Country=us
+
+# Redirect users from India to /in-page.html
+/in-page.html 200! Country=in
+
+# Fallback for other countries
+/index.html 200!
